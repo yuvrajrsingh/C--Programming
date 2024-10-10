@@ -6,7 +6,7 @@ int main()
     if (std::cin >> total){
         Sales_item trans;
         while (std::cin >> trans){
-            if (total.isbn() == total.isbn()){
+            if (total.isbn() == trans.isbn()){
                 total += trans;
             } else {
                 std::cout << total << std::endl;
